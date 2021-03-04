@@ -7,7 +7,6 @@ namespace InputSystem
         public static void MapFromConfig(ConfigFile config, string section1, string section2 = "") {
             foreach (string actionEventName in config.GetSectionKeys(section1)) {
 
-                //Remove existing inputactions for action "actionEventName"
                 var actionList = InputMap.GetActionList(actionEventName);
 
                 if(actionList.Count != 0) 

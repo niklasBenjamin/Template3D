@@ -16,7 +16,6 @@ namespace Utilities.Console
         private NodePath autoCompleteLabelPath;
         private Label autoCompleteLabel;
 
-
         public override void _Process(float delta) {
             if(Godot.Input.IsActionJustPressed("tilde")) {
                 Visible = !Visible;

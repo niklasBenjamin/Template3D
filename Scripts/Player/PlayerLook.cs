@@ -12,14 +12,12 @@ namespace Player
             player = GetNode<KinematicBody>("../../Player");
         }
         
-
         public override void _UnhandledInput(InputEvent @event) {
 			if(@event is InputEventMouseMotion mouseMotion)
 				MouseLook(mouseMotion.Relative);
 
 			@event.Dispose();
 		}
-
 
         private void MouseLook(Vector2 mouseDelta) {
             float xDelta = -Sensitivity * mouseDelta.x;

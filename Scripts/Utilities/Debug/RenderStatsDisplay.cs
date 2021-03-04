@@ -42,7 +42,6 @@ namespace Utilities.Debug.Stats
 
         private Timer timer;
         
-
         public override void _EnterTree() {
             Shell.RegisterCommand("Stats.SetActive", this, nameof(SetActive), "Ladida");
         }
