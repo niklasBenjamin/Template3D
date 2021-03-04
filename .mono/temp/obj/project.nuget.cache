@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "N/0/fIHMYuiQk9AnB/e4Sq/eDNbSzbDxLnByGzVvHVUMleVkCMkBVMMUHHXJCE43smOzoisLx+3p6UIGbSAnSA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Niklas B.L\\Desktop\\godot projects\\Template3D\\Template3D.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Niklas B.L\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\Niklas B.L\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.0\\microsoft.netframework.referenceassemblies.net472.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

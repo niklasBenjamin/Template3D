@@ -1,0 +1,100 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/Utilities/Debug/RenderStatsDisplay.cs" type="Script" id=1]
+
+[node name="RenderStatsDisplay" type="Panel"]
+anchor_right = 1.0
+margin_right = -674.0
+margin_bottom = 90.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+currentFpsLabelPath = NodePath("HBoxContainer/VBoxContainer/CurrentFpsLabel")
+averageFpsLabelPath = NodePath("HBoxContainer/VBoxContainer/AverageFpsLabel")
+minFpsLabelPath = NodePath("HBoxContainer/VBoxContainer/MinFpsLabel")
+staticMemoryLabelPath = NodePath("HBoxContainer/VBoxContainer/MemoryStatic")
+dynamicMemoryLabelPath = NodePath("HBoxContainer/VBoxContainer/MemoryDynamic")
+objectCountLabelPath = NodePath("HBoxContainer/VBoxContainer2/ObjectCount")
+objectsInFrameLabelPath = NodePath("HBoxContainer/VBoxContainer2/ObjectsInFrame")
+verticesInFrameLabelPath = NodePath("HBoxContainer/VBoxContainer2/VerticesInFrame")
+drawCalls3DLabelPath = NodePath("HBoxContainer/VBoxContainer2/DrawCalls3D")
+drawCalls2DLabelPath = NodePath("HBoxContainer/VBoxContainer2/DrawCalls2D")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer"]
+margin_right = 173.0
+margin_bottom = 90.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="CurrentFpsLabel" type="Label" parent="HBoxContainer/VBoxContainer"]
+margin_right = 173.0
+margin_bottom = 14.0
+text = "FPS:999"
+
+[node name="AverageFpsLabel" type="Label" parent="HBoxContainer/VBoxContainer"]
+margin_top = 18.0
+margin_right = 173.0
+margin_bottom = 32.0
+text = "Average : "
+
+[node name="MinFpsLabel" type="Label" parent="HBoxContainer/VBoxContainer"]
+margin_top = 36.0
+margin_right = 173.0
+margin_bottom = 50.0
+text = "Min : "
+
+[node name="MemoryStatic" type="Label" parent="HBoxContainer/VBoxContainer"]
+margin_top = 54.0
+margin_right = 173.0
+margin_bottom = 68.0
+text = "Static memory"
+
+[node name="MemoryDynamic" type="Label" parent="HBoxContainer/VBoxContainer"]
+margin_top = 72.0
+margin_right = 173.0
+margin_bottom = 86.0
+text = "Dynamic memory"
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="HBoxContainer"]
+margin_left = 177.0
+margin_right = 350.0
+margin_bottom = 90.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="ObjectCount" type="Label" parent="HBoxContainer/VBoxContainer2"]
+margin_right = 173.0
+margin_bottom = 14.0
+text = "Object count"
+
+[node name="ObjectsInFrame" type="Label" parent="HBoxContainer/VBoxContainer2"]
+margin_top = 18.0
+margin_right = 173.0
+margin_bottom = 32.0
+text = "Objects in frame"
+
+[node name="VerticesInFrame" type="Label" parent="HBoxContainer/VBoxContainer2"]
+margin_top = 36.0
+margin_right = 173.0
+margin_bottom = 50.0
+text = "Vertices in frame"
+
+[node name="DrawCalls3D" type="Label" parent="HBoxContainer/VBoxContainer2"]
+margin_top = 54.0
+margin_right = 173.0
+margin_bottom = 68.0
+text = "3D drawcalls"
+
+[node name="DrawCalls2D" type="Label" parent="HBoxContainer/VBoxContainer2"]
+margin_top = 72.0
+margin_right = 173.0
+margin_bottom = 86.0
+text = "2D drawcalls"
