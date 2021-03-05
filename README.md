@@ -1,5 +1,5 @@
 # Template3D
-A template for 3D godot projects.
+A template for 3D godot projects (C#).
 
 The project includes :
 * 3D first-person character controller
