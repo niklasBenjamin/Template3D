@@ -1,8 +1,0 @@
-C:\Users\Niklas B.L\Desktop\godot projects\Template3D\.mono\temp\obj\Debug\Template3D.csprojAssemblyReference.cache
-C:\Users\Niklas B.L\Desktop\godot projects\Template3D\.mono\temp\obj\Debug\Template3D.AssemblyInfoInputs.cache
-C:\Users\Niklas B.L\Desktop\godot projects\Template3D\.mono\temp\obj\Debug\Template3D.AssemblyInfo.cs
-C:\Users\Niklas B.L\Desktop\godot projects\Template3D\.mono\temp\obj\Debug\Template3D.csproj.CoreCompileInputs.cache
-C:\Users\Niklas B.L\Desktop\godot projects\Template3D\.mono\temp\bin\Debug\Template3D.dll
-C:\Users\Niklas B.L\Desktop\godot projects\Template3D\.mono\temp\bin\Debug\Template3D.pdb
-C:\Users\Niklas B.L\Desktop\godot projects\Template3D\.mono\temp\obj\Debug\Template3D.dll
-C:\Users\Niklas B.L\Desktop\godot projects\Template3D\.mono\temp\obj\Debug\Template3D.pdb
